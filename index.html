@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consulta cep</title>
+</head>
+<body>
+    <h1>Consuta<span>CEP</span></h1>
+<main>
+  <label for="cep"> Digite o CEP para busca da CIDADE:</label>
+  <input id="cep" placeholder="Digite seu CEP" type="number" title="Digite um CEP 20031900" pattern="^[0-9]+$" max="9"></input>
+
+  <button type="submit" onclick="pegarCep()">BUSCAR</button>
+<p id="validarCodigo"></p>
+</main>
+<section id="informacaoTela"></section>
+</body>
+<script src="app.js"></script>
+</html>
